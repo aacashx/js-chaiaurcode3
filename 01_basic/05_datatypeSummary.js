@@ -44,6 +44,32 @@ console.log(typeof myFunction);
 console.log(typeof id);
 
 
+//-------------------------------------------------------
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myCollegename = "Rajdhani College"
+let myUniversityname = myCollegename
+
+myUniversityname = "Delhi Technilogical University"
+
+console.log(myCollegename);
+console.log(myUniversityname);
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne;
+
+userTwo.email = "user2@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
 
