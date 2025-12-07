@@ -1,4 +1,4 @@
-// Primitive data type
+ // Primitive data type
 // 7 types : String, Numbers, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
